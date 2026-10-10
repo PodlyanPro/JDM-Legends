@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM Legends | Nissan 300ZX, Toyota Crown Majesta, Mazda RX-7</title>
+    <link rel="stylesheet" href="JDM.css">
+</head>
+<body>
+
+    <div class="sticky-header">
+        <p>JDM Legends</p>
+    </div>
+
+    <header>
+        <h1>Легенды Японского Автопрома</h1>
+        <p class="intro-text">
+            Три культовых автомобиля, которые определили эпоху 90-х и до сих пор остаются объектами желания для энтузиастов по всему миру. <em>Узнайте их историю и преимущества.</em>
+        </p>
+    </header>
+
+    <main>
+        <section class="cars-grid" aria-label="Список автомобилей">
+
+            <article class="car-card">
+                <div class="car-image">
+                    <img src="Nissan 300zx.jpg" alt="Nissan 300ZX (Z32)">
+                </div>
+                <div class="car-content">
+                    <h2>Nissan 300ZX (Z32)</h2>
+                    <p>
+                        <strong>Nissan 300ZX</strong> — это символ технологического совершенства 90-х. 
+                        Автомобиль предлагался с двигателем <em>VG30DETT</em> (твин-турбо V6), который 
+                        выдавал до 300 л.с. для японского рынка. Модель славилась не только 
+                        динамикой, но и передовыми технологиями, такими как <strong>HICAS</strong> 
+                        (система подруливания задних колес) и <strong>Super HICAS</strong>.
+                    </p>
+                    <h3>Преимущества</h3>
+                    <ul class="advantages-list">
+                        <li>Мощный и надежный двигатель VG30DETT</li>
+                        <li>Продвинутая аэродинамика и дизайн</li>
+                        <li>Отличная управляемость благодаря HICAS</li>
+                        <li>Комфортный салон для своего класса</li>
+                    </ul>
+                    <a href="#" aria-label="Подробнее о Nissan 300ZX">Подробнее →</a>
+                </div>
+                </article>
+
+            <article class="car-card">
+                <div class="car-image" role="img" aria-label="Toyota Crown Majesta S170">
+                    <img src="Toyota Crown Majesta.jpg">
+                </div>
+                <div class="car-content">
+                    <h2>Toyota Crown Majesta S170</h2>
+                    <p>
+                        <strong>Toyota Crown Majesta S170</strong> — это флагманский седан, 
+                        сочетающий в себе <em>роскошь и передовые технологии</em>. 
+                        S170 поколение (1999-2004) предлагало невероятный уровень комфорта, 
+                        включая пневмоподвеску, массаж сидений и мощные двигатели V8 (1UZ-FE). 
+                        Это автомобиль для тех, кто ценит <strong>тишину, плавность хода и статус</strong>.
+                    </p>
+                    <h3>Преимущества</h3>
+                    <ul class="advantages-list">
+                        <li>Беспрецедентный уровень комфорта</li>
+                        <li>Надежный и мощный двигатель V8</li>
+                        <li>Передовые технологии своего времени</li>
+                        <li>Огромный запас прочности и ресурса</li>
+                    </ul>
+                    <a href="#" aria-label="Подробнее о Toyota Crown Majesta">Подробнее →</a>
+                </div>
+            </article>
+
+            <article class="car-card">
+                <div class="car-image" role="img" aria-label="Mazda RX-7 FD">
+                    <img src="Mazda RX-7.jpg">
+                </div>
+                <div class="car-content">
+                    <h2>Mazda RX-7 (FD3S)</h2>
+                    <p>
+                        <strong>Mazda RX-7 FD</strong> — это <em>икона японского спортакара</em>. 
+                        Оснащенный роторно-поршневым двигателем <strong>13B-REW</strong> с 
+                        последовательным твин-турбо, он выдавал до 280 л.с. (в Японии). 
+                        FD3S славится своей <strong>идеальной развесовкой</strong>, легким весом 
+                        и невероятной отзывчивостью на руль. Это выбор настоящих 
+                        энтузиастов вождения.
+                    </p>
+                    <h3>Преимущества</h3>
+                    <ul class="advantages-list">
+                        <li>Легендарный роторный двигатель</li>
+                        <li>Идеальная развесовка 50/50</li>
+                        <li>Легкий вес и отличная динамика</li>
+                        <li>Культовый дизайн и тюнинг-потенциал</li>
+                    </ul>
+                    <a href="#" aria-label="Подробнее о Mazda RX-7">Подробнее →</a>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="form-section" aria-label="Форма подписки">
+            <h2 class="form-title">Подпишитесь на новости</h2>
+            <p class="form-subtitle">Будьте в курсе последних событий мира JDM.</p>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Ваша почта" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment">Комментарий (необязательно)</label>
+                    <textarea id="comment" name="comment" rows="3" placeholder="Какой автомобиль вам нравится больше?"></textarea>
+                </div>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <a href="#" class="back-to-top" aria-label="Наверх">↑</a>
+
+    <footer>
+        <p>&copy; 2026 JDM Legends. Все права защищены.</p>
+        <p>Сайт создан исключительно ради хайпа!</p>
+    </footer>
+
+</body>
+</html>
